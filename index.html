@@ -1,0 +1,36 @@
+<!DOCTYPE html>     
+<html lang= "es">
+    <head>  
+    <meta charset="UTF-8">
+    <title>DESAFÍO Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div> 
+        <div class="container">
+            <div class="logo"> 
+                <img class="logoimg" src="img/Vector.png">
+                <h1 class="tittle">ENCRIPTAR O DESENCRIPTAR TEXTO</h1>
+            </div>
+            <div class="left">                  
+            <textarea id="input-text" placeholder="Ingrese texto aquí..."></textarea>
+            </div>
+            <div class="button-left">
+            <p>Solo se acepta texto en minúscula y sin acentos</p>
+            <button id="buttonencrip" onclick="encrypt()">Encriptar</button>
+            <button id="buttondescrip" onclick="decrypt()">Desencriptar</button>
+            </div>
+            <div class="right"> 
+                <img id="imgright" src="img/muneco.png">
+                <h1 id="textoright1">Ningun mensaje fue encontrado</h1>
+                <textarea id="output-text" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                <button id="buttoncopy" onclick="copyText()">Copiar</button>
+            </div>
+        </div>s
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Encriptador de Texto. BY J DANIEL RUIZ. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
